@@ -1,0 +1,96 @@
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx,scss}", "./public/index.html"],
+  theme: {
+    screens: {
+      xs: "400px",
+      sm: "793px",
+      md: "893px",
+      lg: "1123px",
+      xl: "1297px",
+      "5xl": "1298px",
+      "1xl": "1362px",
+      "1.5xl": "1366px",
+      "2xl": "1416px",
+      "13mac": "1440px",
+      "3xl": "1616px",
+      "4xl": "1920px",
+    },
+    colors: {
+      // 'c' refers to coyni, 'gy' refers to Gray color
+      cgy1: "#CCCCCC",
+      cgy2: "#ADADAD",
+      cgy3: "#767676",
+      cgy4: "#404040",
+      cgy5: "#4D4D4D",
+      cgy6: "#00000026",
+      cgy7: "#0000001A",
+      cgy8: "#4c4c4c",
+      cgy9: "#828282",
+      cgy10: "#E5F6F6",
+      cgy11: "#f8f8f8",
+      cgy12: "#e5e5e5",
+      cgy13: "#747474",
+      cgy14: "#000000B3",
+      cgy15: "#363636",
+      cgy16: "#B3D7FE",
+      cgy17: "#4C4C4C",
+      // 'c' refers to coyni, 'm' refers to Main color
+      cm1: "#F1F4F9",
+      cm2: "#D8E2F0",
+      cm3: "#00A6A2",
+      cm4: "#00908C",
+      cm5: "#ECF3FD",
+      cm6: "#30797D",
+      cm7: "#0c3c3b",
+      cm8: "#13A6A2",
+      cm9: "#F5F5F5",
+      cm10: "#F2F5F8",
+      // c refers to coyni, 'gn' refers to green color
+      cgn1: "#E5F3E5",
+      cgn2: "#00cc6e",
+      cgn5: "#008A05",
+      cgn6: "#007B04",
+      cgn7: "#00cc6e10",
+      cgn8: "#129C97",
+
+      // c refers to coyni, 'rd' refers to red color
+      crd1: "#FCE9E8",
+      crd2: "#d45858",
+      crd3: "#d13e32",
+      crd4: "#f9eae8",
+      crd5: "#E32B25",
+      crd6: "#D54848",
+      crd7: "#DB5759",
+      // c refers to coyni, 'or' refers to orange color
+      cor1: "#FFEFD8",
+      cor2: "#FFA728",
+      cor5: "#FFA70F",
+      cor6: "#FFECD4",
+
+      // c refers to coyni, 'bl' refers to blue color
+      cbl1: "#E8F3F9",
+      cbl2: "#f2f5f8",
+      cbl3: "#d3deed",
+      cbl5: "#1D86BE",
+      cbl6: "#4587E3",
+      cbl7: "#eff2f8",
+      // c refers to coyni, 'cy  refers to cyan color
+      ccy1: "#35BAB6",
+      // c refers to coyni, 'bc  refers to black color
+      cbc4: "#4D4D4D",
+      cbc5: "#1d1e2e",
+      cbc6: "#000000B3",
+      cbc8: "#00000066",
+
+      cwhitesmoke: "#efefef",
+      cwhite: "#fff",
+      cBlack: "#00000040",
+    },
+
+    extend: {},
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+};
